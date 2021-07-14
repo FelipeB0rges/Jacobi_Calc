@@ -1,0 +1,75 @@
+.view-home {
+    @font-face {
+        font-family: "d-din-regular";
+        src: url(../../fonts/d-din.regular.ttf);
+    }
+    @font-face {
+        font-family: "d-din-bold";
+        src: url(../../fonts/d-din.bold.ttf);
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        img {
+            width: 300px;
+        }
+    }
+    .titulo {
+        text-align: center;
+        font-family: "d-din-regular";
+        margin: 30px 0;
+        font-size: 40px;
+    }
+    .aluno {
+        text-align: center;
+        font-size: 35px;
+        font-family: "d-din-regular";
+        margin: 15px 0;
+    }
+    .titulo-item {
+        text-align: center;
+        font-family: "d-din-regular";
+        font-size: 20px;
+    }
+    .nao {
+        text-align: center;
+        font-family: "d-din-regular";
+        font-size: 40px;
+        margin-top: 20px;
+        color: red;
+    }
+    .coeficientes {
+        margin-top: 15px;
+        .converge {
+            font-family: "d-din-bold";
+            display: flex;
+            font-size: 20px;
+            margin-top: 15px;
+            color: rgb(49, 255, 8);
+        }
+        .nao-converge {
+            font-family: "d-din-bold";
+            display: flex;
+            font-size: 20px;
+            margin-top: 15px;
+            color: red;
+        }
+        .igual {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .t-coeficientes {
+        text-align: center;
+    }
+    .tabela {
+        .pare {
+           background-color: rgba(255, 0, 0, 0.479);
+        }
+        .continue {
+           background-color: rgba(172, 255, 47, 0.411);
+        }
+    }
+}
